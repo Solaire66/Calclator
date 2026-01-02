@@ -1,4 +1,5 @@
-from main import Calculator
+import os
 
-def test_sums_2_number():
-    assert Calculator().sum(2,2) == 4
+class Calculator:
+    def sum(self, a: int, b: int) -> int:
+        return a + b
